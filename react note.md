@@ -18,5 +18,6 @@ https://zh-hant.reactjs.org/docs/introducing-jsx.html
 *(觀念待確認)上層透過index.js去定義App.js = root。所以在poblic/index.html裡看到的是root
 
 目前試著也製作一個物件，Meme.js。以可以成功加入顯示在index.html。但遇到兩個問題
-    1.圖片無法導入至物件中
-    2.若index.html中沒有使用到Meme.js，則必須將src/index.js(物件的清單?)中關於meme.js的import與getElementById註解掉，否則網頁會crash
+
+        1.圖片無法導入至物件中
+        2.若index.html中沒有使用到Meme.js，則必須將src/index.js(物件的清單?)中關於meme.js的import與getElementById註解掉，否則網頁會crash
